@@ -13,6 +13,7 @@ Male breakout board for the Game Boy cartridge slot.
 
 * Use SMT part for the pins
 * Add pin descriptions to silk screen layer
+* The drilled big hole is a bit off
 
 ## GB-BRK-F
 
