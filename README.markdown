@@ -14,6 +14,8 @@ Male breakout board for the Game Boy cartridge slot.
 
 ![GB-BRK-M v1.0 assembled](GB-BRK-M-v1.0.jpg)
 
+![GB-BRK-M v2.1 board layout](GB-BRK-M-v2.1.brd.png)
+
 ## Changelog
 
 ### v2.1
@@ -29,6 +31,7 @@ Male breakout board for the Game Boy cartridge slot.
 * Add pin descriptions to silk screen layer
 * Add the smaller drill hole used with old Game Boy cartridges
 * Add a decoupling capacitor
+* Add ground plane
 * Update GB-CARTRIDGE symbol
   * Use ! for active-low signals
   * Signal name change: MREQ -> CS
