@@ -12,7 +12,7 @@ Licensed under Creative Commons Attribution 4.0 International.
 
 Male breakout board for the Game Boy cartridge slot.
 
-![GB-BRK-M v1.0 assembled](GB-BRK-M-v1.0.jpg)
+![GB-BRK-M v2.1 assembled](GB-BRK-M-v2.1.jpg)
 
 ![GB-BRK-M v2.1 board layout](GB-BRK-M-v2.1.brd.png)
 
