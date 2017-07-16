@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Gekkio_GameBoy)(type KiCad)(uri "$(KIPRJMOD)/../external/gekkio-kicad-libs/Gekkio_GameBoy.pretty")(options "")(descr ""))
+)

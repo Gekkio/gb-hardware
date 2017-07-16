@@ -5,6 +5,9 @@ Licensed under Creative Commons Attribution 4.0 International.
 
 ## Libraries used
 
+* [gekkio-kicad-libs](https://github.com/Gekkio/gekkio-kicad-libs)
+
+## Libraries used (GB-BRK-F)
 * [SparkFun Electronics Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
 * [Dr. Azzy's Pinhead+](http://drazzy.com/e/eaglelibs.shtml)
 
@@ -12,11 +15,16 @@ Licensed under Creative Commons Attribution 4.0 International.
 
 Male breakout board for the Game Boy cartridge slot.
 
-![GB-BRK-M v2.1 assembled](GB-BRK-M-v2.1.jpg)
+![GB-BRK-M v3.0](GB-BRK-M.jpg)
 
-![GB-BRK-M v2.1 board layout](GB-BRK-M-v2.1.brd.png)
+![GB-BRK-M v3.0 KiCad 3D view](GB-BRK-M.3d.png)
 
 ## Changelog
+
+### v3.0
+
+* Redesign with KiCad
+* Add control signal LEDs
 
 ### v2.1
 
