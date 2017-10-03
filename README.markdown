@@ -15,11 +15,11 @@ Licensed under Creative Commons Attribution 4.0 International.
 
 Male breakout board for the Game Boy cartridge slot.
 
+[GB-BRK-M v3.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
+
 ![GB-BRK-M v3.0](GB-BRK-M.jpg)
 
 ![GB-BRK-M v3.0 KiCad 3D view](GB-BRK-M.3d.png)
-
-[GB-BRK-M v3.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
 
 ## Changelog
 
@@ -58,3 +58,16 @@ Female breakout board for the Game Boy cartridge slot. Uses [dx.com part 37787](
 
 ![GB-BRK-F v1.0 assembled](GB-BRK-F-v1.0.jpg)
 
+# GB-BENCH-G1
+
+Test bench board for 1st generation Game Boy CPUs (DMG-CPU, SGB-CPU).
+
+![GB-BENCH-G1 v1.0](GB-BENCH-G1-v1.0.jpg)
+
+![GB-BENCH-G1 v1.0 KiCad 3D view](GB-BENCH-G1.3d.png)
+
+## Changelog
+
+### v1.0
+
+* Initial design
