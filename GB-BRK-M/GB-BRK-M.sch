@@ -1,35 +1,9 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:mechanical
 LIBS:Gekkio_GameBoy
+LIBS:device
+LIBS:Connector
+LIBS:Mechanical
+LIBS:power
 LIBS:GB-BRK-M-cache
 EELAYER 25 0
 EELAYER END
@@ -46,18 +20,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X16 J1
+L Conn_02x16_Odd_Even J1
 U 1 1 5910D7D7
-P 5650 3200
-F 0 "J1" H 5650 4050 50  0000 C CNN
-F 1 "CONN_02X16" V 5650 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm_SMD" H 5650 2100 50  0001 C CNN
-F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0015910400_PCB_HEADERS.pdf" H 5650 2100 50  0001 C CNN
-F 4 "Molex" H 5750 4150 50  0001 C CNN "MFR"
-F 5 "15-91-0400" H 5850 4250 50  0001 C CNN "MPN"
-F 6 "538-15-91-0400" H 5950 4350 50  0001 C CNN "SPR"
-F 7 "Mouser" H 6050 4450 50  0001 C CNN "SPN"
-	1    5650 3200
+P 5700 3150
+F 0 "J1" H 5750 3950 50  0000 C CNN
+F 1 "CONN_02X16" H 5750 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm_SMD" H 5700 3150 50  0001 C CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0015910400_PCB_HEADERS.pdf" H 5700 3150 50  0001 C CNN
+F 4 "Molex" H 5800 4100 50  0001 C CNN "MFR"
+F 5 "15-91-0400" H 5900 4200 50  0001 C CNN "MPN"
+F 6 "538-15-91-0400" H 6000 4300 50  0001 C CNN "SPR"
+F 7 "Mouser" H 6100 4400 50  0001 C CNN "SPN"
+	1    5700 3150
 	-1   0    0    -1  
 $EndComp
 $Comp
