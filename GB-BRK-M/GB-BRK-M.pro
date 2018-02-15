@@ -1,4 +1,4 @@
-update=su 30. heinäkuuta 2017 10.05.00
+update=ke 17. tammikuuta 2018 22.37.08
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,8 +29,8 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=../external/gekkio-kicad-libs/Gekkio_GameBoy
-LibName2=../external/kicad-library/library/device
-LibName3=../external/kicad-library/library/Connector
-LibName4=../external/kicad-library/library/Mechanical
-LibName5=../external/kicad-library/library/power
+LibName1=external/gekkio-kicad-libs/Gekkio_GameBoy
+LibName2=external/kicad-symbols/Connector_Generic
+LibName3=external/kicad-symbols/Device
+LibName4=external/kicad-symbols/Mechanical
+LibName5=external/kicad-symbols/power

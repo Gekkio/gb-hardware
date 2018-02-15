@@ -19,9 +19,13 @@ Male breakout board for the Game Boy cartridge slot.
 
 ![GB-BRK-M v3.0](GB-BRK-M.jpg)
 
-![GB-BRK-M v3.0 KiCad 3D view](GB-BRK-M.3d.png)
+![GB-BRK-M v3.1 KiCad 3D view](GB-BRK-M.3d.png)
 
 ## Changelog
+
+### v3.1
+
+* Update symbols and footprints
 
 ### v3.0
 

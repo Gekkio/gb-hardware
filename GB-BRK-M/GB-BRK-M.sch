@@ -1,10 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:Gekkio_GameBoy
-LIBS:device
-LIBS:Connector
+LIBS:Connector_Generic
+LIBS:Device
 LIBS:Mechanical
 LIBS:power
-LIBS:GB-BRK-M-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -12,7 +11,7 @@ encoding utf-8
 Sheet 1 1
 Title "GB-BRK-M"
 Date ""
-Rev "v3.0"
+Rev "v3.1"
 Comp "https://gekkio.fi"
 Comment1 ""
 Comment2 ""
@@ -25,7 +24,7 @@ U 1 1 5910D7D7
 P 5700 3150
 F 0 "J1" H 5750 3950 50  0000 C CNN
 F 1 "CONN_02X16" H 5750 2200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm_SMD" H 5700 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical_SMD" H 5700 3150 50  0001 C CNN
 F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0015910400_PCB_HEADERS.pdf" H 5700 3150 50  0001 C CNN
 F 4 "Molex" H 5800 4100 50  0001 C CNN "MFR"
 F 5 "15-91-0400" H 5900 4200 50  0001 C CNN "MPN"
@@ -40,7 +39,7 @@ U 1 1 5910C869
 P 9400 3300
 F 0 "C1" H 9425 3400 50  0000 L CNN
 F 1 "10uF" H 9425 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9438 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9438 3150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/cx5r.pdf" H 9400 3300 50  0001 C CNN
 F 4 "AVX" H 0   0   50  0001 C CNN "MFR"
 F 5 "0805YD106KAT4A" H 0   0   50  0001 C CNN "MPN"
@@ -56,7 +55,7 @@ U 1 1 5910CAE9
 P 8250 4250
 F 0 "R5" V 8330 4250 50  0000 C CNN
 F 1 "1K" V 8250 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 4250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8250 4250 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRCW06031K00JNEA" H 0   0   50  0001 C CNN "MPN"
@@ -72,7 +71,7 @@ U 1 1 5910CC2A
 P 7950 4250
 F 0 "D5" H 7950 4350 50  0000 C CNN
 F 1 "LED_R" H 8000 4150 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7950 4250 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 4250 50  0001 C CNN
 F 3 "http://katalog.we-online.com/led/datasheet/150060SS75000.pdf" H 7950 4250 50  0001 C CNN
 F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
 F 5 "150060SS75000" H 0   0   50  0001 C CNN "MPN"
@@ -126,23 +125,12 @@ F 3 "" H 5400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_GameBoy_Cartridge J2
-U 1 1 5963D096
-P 6500 3550
-F 0 "J2" H 6500 5300 50  0000 C CNN
-F 1 "Conn_GameBoy_Cartridge" H 6500 1950 50  0000 C CNN
-F 2 "Gekkio_GameBoy:GameBoy_Cartridge" H 6400 5200 50  0001 C CNN
-F 3 "" H 6500 3550 50  0001 L CNN
-	1    6500 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED D1
 U 1 1 5963E0F1
 P 7950 2850
 F 0 "D1" H 7950 2950 50  0000 C CNN
 F 1 "LED_Y" H 8000 2750 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7950 2850 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 2850 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150060YS75000.pdf" H 7950 2850 50  0001 C CNN
 F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
 F 5 "150060YS75000" H 0   0   50  0001 C CNN "MPN"
@@ -157,7 +145,7 @@ U 1 1 5963E14B
 P 8250 2850
 F 0 "R1" V 8330 2850 50  0000 C CNN
 F 1 "1K" V 8250 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8250 2850 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRCW06031K00JNEA" H 0   0   50  0001 C CNN "MPN"
@@ -173,7 +161,7 @@ U 1 1 5963E1DF
 P 7950 3200
 F 0 "D2" H 7950 3300 50  0000 C CNN
 F 1 "LED_Y" H 8000 3100 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7950 3200 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 3200 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150060YS75000.pdf" H 7950 3200 50  0001 C CNN
 F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
 F 5 "150060YS75000" H 0   0   50  0001 C CNN "MPN"
@@ -188,7 +176,7 @@ U 1 1 5963E23F
 P 8250 3200
 F 0 "R2" V 8330 3200 50  0000 C CNN
 F 1 "1K" V 8250 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 3200 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8250 3200 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRCW06031K00JNEA" H 0   0   50  0001 C CNN "MPN"
@@ -204,7 +192,7 @@ U 1 1 5963E278
 P 7950 3550
 F 0 "D3" H 7950 3650 50  0000 C CNN
 F 1 "LED_Y" H 8000 3450 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7950 3550 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 3550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150060YS75000.pdf" H 7950 3550 50  0001 C CNN
 F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
 F 5 "150060YS75000" H 0   0   50  0001 C CNN "MPN"
@@ -219,7 +207,7 @@ U 1 1 5963E2CC
 P 8250 3550
 F 0 "R3" V 8330 3550 50  0000 C CNN
 F 1 "1K" V 8250 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 3550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8250 3550 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRCW06031K00JNEA" H 0   0   50  0001 C CNN "MPN"
@@ -246,7 +234,7 @@ U 1 1 5963E607
 P 7950 3900
 F 0 "D4" H 7950 4000 50  0000 C CNN
 F 1 "LED_R" H 8000 3800 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7950 3900 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 3900 50  0001 C CNN
 F 3 "http://katalog.we-online.com/led/datasheet/150060SS75000.pdf" H 7950 3900 50  0001 C CNN
 F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
 F 5 "150060SS75000" H 0   0   50  0001 C CNN "MPN"
@@ -261,7 +249,7 @@ U 1 1 5963E655
 P 8250 3900
 F 0 "R4" V 8330 3900 50  0000 C CNN
 F 1 "1K" V 8250 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 3900 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8250 3900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
 F 5 "CRCW06031K00JNEA" H 0   0   50  0001 C CNN "MPN"
@@ -560,4 +548,15 @@ Connection ~ 8500 3200
 Connection ~ 8500 2850
 Connection ~ 8500 3550
 Connection ~ 8500 3900
+$Comp
+L Conn_GameBoy_Cartridge J2
+U 1 1 5A5FB4C5
+P 6600 3550
+F 0 "J2" H 6500 5250 50  0000 C CNN
+F 1 "Conn_GameBoy_Cartridge" H 6500 1850 50  0000 C CNN
+F 2 "Gekkio_GameBoy:GameBoy_Cartridge" H 6500 1750 50  0001 C CNN
+F 3 "" H 6500 3550 50  0001 L CNN
+	1    6600 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
