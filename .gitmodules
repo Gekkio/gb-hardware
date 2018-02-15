@@ -1,9 +1,3 @@
-[submodule "external/gekkio-kicad-libs"]
-	path = external/gekkio-kicad-libs
-	url = https://github.com/Gekkio/gekkio-kicad-libs.git
-[submodule "external/kicad-library"]
-	path = external/kicad-library
-	url = https://github.com/KiCad/kicad-library.git
 [submodule "GB-BRK-M/external/kicad-symbols"]
 	path = GB-BRK-M/external/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
@@ -21,4 +15,7 @@
 	url = https://github.com/KiCad/kicad-symbols.git
 [submodule "GB-BRK-M-XS/external/gekkio-kicad-libs"]
 	path = GB-BRK-M-XS/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-BENCH-G1/external/gekkio-kicad-libs"]
+	path = GB-BENCH-G1/external/gekkio-kicad-libs
 	url = https://github.com/Gekkio/gekkio-kicad-libs.git

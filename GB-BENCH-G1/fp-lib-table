@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name Gekkio_CUIInc)(type KiCad)(uri "$(KIPRJMOD)/../external/gekkio-kicad-libs/Gekkio_CUIInc.pretty")(options "")(descr ""))
-  (lib (name Gekkio_GameBoy)(type KiCad)(uri "$(KIPRJMOD)/../external/gekkio-kicad-libs/Gekkio_GameBoy.pretty")(options "")(descr ""))
-  (lib (name Gekkio_E-Switch)(type KiCad)(uri "$(KIPRJMOD)/../external/gekkio-kicad-libs/Gekkio_E-Switch.pretty")(options "")(descr ""))
-  (lib (name Gekkio_Molex)(type KiCad)(uri "$(KIPRJMOD)/../external/gekkio-kicad-libs/Gekkio_Molex.pretty")(options "")(descr ""))
+  (lib (name Gekkio_CUIInc)(type KiCad)(uri "$(KIPRJMOD)/external/gekkio-kicad-libs/Gekkio_CUIInc.pretty")(options "")(descr ""))
+  (lib (name Gekkio_GameBoy)(type KiCad)(uri "$(KIPRJMOD)/external/gekkio-kicad-libs/Gekkio_GameBoy.pretty")(options "")(descr ""))
+  (lib (name Gekkio_E-Switch)(type KiCad)(uri "$(KIPRJMOD)/external/gekkio-kicad-libs/Gekkio_E-Switch.pretty")(options "")(descr ""))
+  (lib (name Gekkio_Molex)(type KiCad)(uri "$(KIPRJMOD)/external/gekkio-kicad-libs/Gekkio_Molex.pretty")(options "")(descr ""))
 )
