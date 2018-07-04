@@ -19,3 +19,21 @@
 [submodule "GB-BENCH-G1/external/gekkio-kicad-libs"]
 	path = GB-BENCH-G1/external/gekkio-kicad-libs
 	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-LIVE32/external/kicad-symbols"]
+	path = GB-LIVE32/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-LIVE32/external/kicad-footprints"]
+	path = GB-LIVE32/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-BRK-CART/external/kicad-footprints"]
+	path = GB-BRK-CART/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-BRK-CART/external/kicad-symbols"]
+	path = GB-BRK-CART/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-BRK-CART/external/gekkio-kicad-libs"]
+	path = GB-BRK-CART/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-LIVE32/external/gekkio-kicad-libs"]
+	path = GB-LIVE32/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git

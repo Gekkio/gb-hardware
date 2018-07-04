@@ -1,0 +1,144 @@
+EESchema Schematic File Version 4
+LIBS:GB-LIVE32-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "GB-LIVE32"
+Date ""
+Rev "v2.0"
+Comp "https://gekkio.fi"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C10
+U 1 1 5AEF3A67
+P 6600 3850
+F 0 "C10" H 6715 3896 50  0000 L CNN
+F 1 "0.1uF" H 6715 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 3700 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+	1    6600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5AEF3A6E
+P 5850 3850
+F 0 "C9" H 5965 3896 50  0000 L CNN
+F 1 "0.1uF" H 5965 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 3700 50  0001 C CNN
+F 3 "~" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead L1
+U 1 1 5AEF3A75
+P 6250 3700
+F 0 "L1" V 5976 3700 50  0000 C CNN
+F 1 "Ferrite_Bead" V 6067 3700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 6180 3700 50  0001 C CNN
+F 3 "~" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_B_Mini J2
+U 1 1 5AEF3A7C
+P 4900 3900
+F 0 "J2" H 4955 4367 50  0000 C CNN
+F 1 "USB_B_Mini" H 4955 4276 50  0000 C CNN
+F 2 "Gekkio_Connector_USB:USB_Mini-B_Hirose_UX60SC-MB-5ST80_Horizontal" H 5050 3850 50  0001 C CNN
+F 3 "~" H 5050 3850 50  0001 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3700 6600 3700
+Wire Wire Line
+	5200 3700 5850 3700
+NoConn ~ 5200 4100
+Wire Wire Line
+	6600 4000 6250 4000
+$Comp
+L power:GND #PWR024
+U 1 1 5AEF3A8A
+P 6250 4000
+F 0 "#PWR024" H 6250 3750 50  0001 C CNN
+F 1 "GND" H 6255 3827 50  0000 C CNN
+F 2 "" H 6250 4000 50  0001 C CNN
+F 3 "" H 6250 4000 50  0001 C CNN
+	1    6250 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 4000
+Wire Wire Line
+	6250 4000 5850 4000
+Connection ~ 5850 3700
+Wire Wire Line
+	5850 3700 6100 3700
+$Comp
+L power:GND #PWR023
+U 1 1 5AEF3A94
+P 4900 4400
+F 0 "#PWR023" H 4900 4150 50  0001 C CNN
+F 1 "GND" H 4905 4227 50  0000 C CNN
+F 2 "" H 4900 4400 50  0001 C CNN
+F 3 "" H 4900 4400 50  0001 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4300 4900 4400
+Wire Wire Line
+	4900 4300 4800 4300
+Connection ~ 4900 4300
+$Comp
+L Device:C C11
+U 1 1 5AEF3A9D
+P 7050 3850
+F 0 "C11" H 6935 3804 50  0000 R CNN
+F 1 "4.7uF" H 6935 3895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7088 3700 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 3700 6600 3700
+Connection ~ 6600 3700
+Wire Wire Line
+	6600 4000 7050 4000
+Connection ~ 6600 4000
+$Comp
+L Connector:Test_Point TP11
+U 1 1 5AEF3AA8
+P 6600 3600
+F 0 "TP11" H 6658 3720 50  0000 L CNN
+F 1 "VCC_USB" H 6658 3629 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6800 3600 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3600 6600 3700
+Text HLabel 5300 3900 2    50   UnSpc ~ 0
+D+
+Text HLabel 5300 4000 2    50   UnSpc ~ 0
+D-
+Wire Wire Line
+	5200 4000 5300 4000
+Wire Wire Line
+	5300 3900 5200 3900
+Text HLabel 7150 3700 2    50   Output ~ 0
+VCC_USB
+Wire Wire Line
+	7150 3700 7050 3700
+Connection ~ 7050 3700
+$EndSCHEMATC
