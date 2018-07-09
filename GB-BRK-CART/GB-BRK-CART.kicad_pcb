@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 50)
+    (drawings 49)
     (tracks 343)
     (zones 0)
     (modules 7)
@@ -657,10 +657,7 @@
     )
   )
 
-  (gr_text "PCB size: 51.4x61 mm" (at 128 105) (layer F.Fab) (tstamp 5B435DDA)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
-  (gr_text "PCB thickness: 0.8 mm" (at 128 108) (layer F.Fab) (tstamp 5B435DD4)
+  (gr_text "PCB size: 51.4x61mm\nPCB thickness: 0.8mm" (at 127 104) (layer F.Fab) (tstamp 5B435DDA)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (dimension 52.4 (width 0.3) (layer F.Fab)
