@@ -140,14 +140,11 @@ ENDDEF
 #
 # Gekkio_Connector_Specialized:GameBoy_Cartridge
 #
-DEF Gekkio_Connector_Specialized:GameBoy_Cartridge J 0 40 Y Y 1 F N
+DEF Gekkio_Connector_Specialized:GameBoy_Cartridge J 0 20 Y Y 1 F N
 F0 "J" -100 1700 50 H V C CNN
 F1 "Gekkio_Connector_Specialized:GameBoy_Cartridge" -100 -1700 50 H V C CNN
 F2 "" -100 -1800 50 H I C CNN
 F3 "" -100 0 50 H I L CNN
-$FPLIST
- GameBoy*Cartridge*
-$ENDFPLIST
 DRAW
 S -200 1650 200 -1650 0 1 10 f
 X VCC 1 -400 1600 200 R 50 50 1 1 P

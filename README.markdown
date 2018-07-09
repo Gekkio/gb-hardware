@@ -28,15 +28,18 @@ Female breakout board for the Game Boy cartridge slot. Uses [dx.com part 37787](
 
 ![GB-BRK-F v1.0 assembled](GB-BRK-F-v1.0.jpg)
 
-## GB-BRK-M
+## GB-BRK-CART
 
-Male breakout board for the Game Boy cartridge slot.
+Breakout Game Boy cartridge.
 
-[GB-BRK-M v3.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
+* PCB size: 51.4x62mm
+* PCB thickness: 0.8mm
+
+[GB-BRK-CART v4.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
 
 ![GB-BRK-M v3.0](GB-BRK-M.jpg)
 
-![GB-BRK-M v3.1 KiCad 3D view](GB-BRK-M.3d.png)
+![GB-BRK-CART v4.0 KiCad 3D view](GB-BRK-CART.3d.png)
 
 ## GB-BRK-M-XS
 
