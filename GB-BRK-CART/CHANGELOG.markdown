@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0
+
+* Simplified design once again...I promise this is the last version!
+  All these control leds really belong to the BRK-F board...
+* Renamed from GB-BRK-M to GB-BRK-CART
+
 ## v3.1
 
 * Update symbols and footprints
