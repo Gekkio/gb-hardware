@@ -19,7 +19,7 @@ L Gekkio_Connector_Specialized:GameBoy_Cartridge J3
 U 1 1 5AEFCF9A
 P 10200 2800
 F 0 "J3" H 10430 2850 50  0000 L CNN
-F 1 "GameBoy_Cartridge" H 10430 2759 50  0000 L CNN
+F 1 "DNF" H 10430 2759 50  0000 L CNN
 F 2 "Gekkio_Connector_PCBEdge:GameBoy_Cartridge_1x32_P1.50mm_Edge" H 10100 1000 50  0001 C CNN
 F 3 "" H 10100 2800 50  0001 L CNN
 	1    10200 2800
