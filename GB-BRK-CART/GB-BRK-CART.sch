@@ -133,7 +133,7 @@ L Mechanical:Mounting_Hole MK1
 U 1 1 597D8607
 P 7600 1300
 F 0 "MK1" H 7600 1500 50  0000 C CNN
-F 1 "Mounting_Hole" H 7600 1425 50  0000 C CNN
+F 1 "DNF" H 7600 1425 50  0000 C CNN
 F 2 "Gekkio_MountingHole:MountingHole_7.2mm" H 7600 1300 50  0001 C CNN
 F 3 "" H 7600 1300 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "MFR"
@@ -149,7 +149,7 @@ L Mechanical:Mounting_Hole MK2
 U 1 1 597D86AE
 P 8300 1300
 F 0 "MK2" H 8300 1500 50  0000 C CNN
-F 1 "Mounting_Hole" H 8300 1425 50  0000 C CNN
+F 1 "DNF" H 8300 1425 50  0000 C CNN
 F 2 "Gekkio_MountingHole:MountingHole_2.3mm" H 8300 1300 50  0001 C CNN
 F 3 "" H 8300 1300 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "MFR"
@@ -379,7 +379,7 @@ L Gekkio_Connector_Specialized:GameBoy_Cartridge J2
 U 1 1 5AE6A112
 P 6500 3600
 F 0 "J2" H 6730 3650 50  0000 L CNN
-F 1 "GameBoy_Cartridge" H 6730 3559 50  0000 L CNN
+F 1 "DNF" H 6730 3559 50  0000 L CNN
 F 2 "Gekkio_Connector_PCBEdge:GameBoy_Cartridge_1x32_P1.50mm_Edge" H 6400 1800 50  0001 C CNN
 F 3 "" H 6400 3600 50  0001 L CNN
 F 4 "" H 0   0   50  0001 C CNN "MFR"
@@ -425,7 +425,7 @@ F 4 "AVX" H 200 50  50  0001 C CNN "MFR"
 F 5 "06035C104KAT4A" H 200 50  50  0001 C CNN "MPN"
 F 6 "Mouser" H 200 50  50  0001 C CNN "SPR"
 F 7 "581-06035C104KAT4A" H 200 50  50  0001 C CNN "SPN"
-F 8 "50V X7R" H 9600 3350 60  0001 C CNN "Rating"
+F 8 "16V X5R" H 9600 3350 60  0001 C CNN "Rating"
 	1    9600 3350
 	1    0    0    -1  
 $EndComp

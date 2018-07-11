@@ -35,6 +35,7 @@ Breakout Game Boy cartridge.
 * PCB size: 51.4x61mm
 * PCB thickness: 0.8mm
 * Layer count: 2
+* Surface finish: ENIG (absolutely *do not* choose HASL)
 
 [GB-BRK-CART v4.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
 
@@ -50,10 +51,13 @@ Compact male breakout board for the Game Boy cartridge slot.
 
 ## GB-LIVE32
 
-32 kb ROM-only rapid development cartridge.
+32 kB ROM-only rapid development cartridge.
 
 * PCB size: 51.4x61mm
 * PCB thickness: 0.8mm
 * Layer count: 4
+* Surface finish: ENIG (absolutely *do not choose HASL*)
+
+[GB-LIVE32 v2.0 Mouser project for easy part shopping](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=16281c67ef)
 
 ![GB-LIVE32 v2.0 KiCad 3D view](GB-LIVE32.3d.png)
