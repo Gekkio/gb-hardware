@@ -3,9 +3,9 @@
 * Supports both PIC18F45K50 and PIC18LF45K50. If you use the LF version, you
   *must* populate the zero-ohm resistor to supply VUSB3V3. If you use the F
   version, you *must not* populate the zero-ohm resistor.
-* All bus transceivers can be normal versions (without H in the part name) or
-  bus hold versions (with H in the part name). Bus hold is probably better to keep
-  the buses in a known state when a Game Boy is not connected or is powered down.
+* All bus transceivers should be normal versions (without H in the part name.
+  The GB CPU has pullups on data and address buses so they never float
+  completely.
 * The crude BAT54C-based power source switching probably draws power from the
   Game Boy even when USB is connected.
 * Indicator LEDs use resistors with high values to minimize power consumption.
