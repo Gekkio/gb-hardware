@@ -61,3 +61,15 @@ Compact male breakout board for the Game Boy cartridge slot.
 [GB-LIVE32 v2.0 Mouser project for easy part shopping](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=16281c67ef)
 
 ![GB-LIVE32 v2.0 KiCad 3D view](GB-LIVE32.3d.png)
+
+## GB-BRK-CPU-G1
+
+Breakout board for 1st generation Game Boy CPUs (DMG/SGB).
+
+![GB-BRK-CPU-G1 v1.0 3D view](GB-BRK-CPU-G1.3d.png)
+
+## GB-BRK-CPU-G2
+
+Breakout board for 2nd generation Game Boy CPUs (MGB/SGB2).
+
+![GB-BRK-CPU-G2 v1.0 3D view](GB-BRK-CPU-G2.3d.png)
