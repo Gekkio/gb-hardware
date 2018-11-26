@@ -84,6 +84,17 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 
 ![GB-LIVE32 v2.0 KiCad 3D view](GB-LIVE32.3d.png)
 
+## GB-CART2M-A
+
+Simple ROM-only flash cartridge for 1Mbit/2Mbit PLCC-32 flash.
+
+* PCB size: 51.4x61mm
+* PCB thickness: 0.8mm
+* Layer count: 2
+* Surface finish: ENIG (absolutely *do not choose HASL*)
+
+![GB-CART2M-A v1.0 KiCad 3D view](GB-CART2M-A.3d.png)
+
 ## GB-BRK-CPU-G1
 
 Breakout board for 1st generation Game Boy CPUs (DMG/SGB).

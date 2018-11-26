@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name Gekkio_Connector_PCBEdge)(type KiCad)(uri ${KIPRJMOD}/external/gekkio-kicad-libs/Gekkio_Connector_PCBEdge.pretty)(options "")(descr ""))
+  (lib (name Gekkio_MountingHole)(type KiCad)(uri ${KIPRJMOD}/external/gekkio-kicad-libs/Gekkio_MountingHole.pretty)(options "")(descr ""))
+  (lib (name Capacitor_SMD)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_PinHeader_1.27mm)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Connector_PinHeader_1.27mm.pretty)(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Jumper.pretty)(options "")(descr ""))
+  (lib (name Package_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Package_DFN_QFN.pretty)(options "")(descr ""))
+  (lib (name Package_LCC)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Package_LCC.pretty)(options "")(descr ""))
+  (lib (name Package_QFP)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Package_QFP.pretty)(options "")(descr ""))
+  (lib (name Resistor_SMD)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/Resistor_SMD.pretty)(options "")(descr ""))
+  (lib (name TestPoint)(type KiCad)(uri ${KIPRJMOD}/external/kicad-footprints/TestPoint.pretty)(options "")(descr ""))
+)

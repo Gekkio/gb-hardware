@@ -64,3 +64,12 @@
 [submodule "GB-BRK-LINK-A/external/kicad-symbols"]
 	path = GB-BRK-LINK-A/external/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-CART2M-A/external/gekkio-kicad-libs"]
+	path = GB-CART2M-A/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-CART2M-A/external/kicad-footprints"]
+	path = GB-CART2M-A/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-CART2M-A/external/kicad-symbols"]
+	path = GB-CART2M-A/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git
