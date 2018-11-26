@@ -43,11 +43,33 @@ Breakout Game Boy cartridge.
 
 ![GB-BRK-CART v4.0 KiCad 3D view](GB-BRK-CART.3d.png)
 
+## GB-BRK-LINK-A
+
+Breakout board for original Game Boy (DMG) link port.
+
+* PCB size: 30x34mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
+
+![GB-BRK-LINK-A v1.0 KiCad 3D view](GB-BRK-LINK-A.3d.png)
+
 ## GB-BRK-M-XS
 
 Compact male breakout board for the Game Boy cartridge slot.
 
 ![GB-BRK-M-XS v1.0 KiCad 3D view](GB-BRK-M-XS.3d.png)
+
+## GB-BRK-SLOT-A
+
+Breakout board for original Game Boy (DMG) cartridge slot.
+
+* PCB size: 81x80mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
+
+![GB-BRK-SLOT-A v1.0 KiCad 3D view](GB-BRK-SLOT-A.3d.png)
 
 ## GB-LIVE32
 
