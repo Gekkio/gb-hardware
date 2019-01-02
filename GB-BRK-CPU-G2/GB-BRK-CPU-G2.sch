@@ -376,57 +376,49 @@ Wire Wire Line
 Wire Wire Line
 	4300 2200 4750 2200
 $Comp
-L Mechanical:Mounting_Hole_PAD MK1
+L Mechanical:MountingHole_Pad MK1
 U 1 1 5AFD33F1
 P 7100 1100
 F 0 "MK1" H 7200 1151 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 7200 1060 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7200 1060 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7100 1100 50  0001 C CNN
 F 3 "" H 7100 1100 50  0001 C CNN
 	1    7100 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK2
+L Mechanical:MountingHole_Pad MK2
 U 1 1 5AFD3497
 P 8100 1100
 F 0 "MK2" H 8200 1151 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 8200 1060 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8200 1060 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8100 1100 50  0001 C CNN
 F 3 "" H 8100 1100 50  0001 C CNN
 	1    8100 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK3
+L Mechanical:MountingHole_Pad MK3
 U 1 1 5AFD3565
 P 9100 1100
 F 0 "MK3" H 9200 1151 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 9200 1060 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9200 1060 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9100 1100 50  0001 C CNN
 F 3 "" H 9100 1100 50  0001 C CNN
 	1    9100 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK4
+L Mechanical:MountingHole_Pad MK4
 U 1 1 5AFD35D5
 P 10100 1100
 F 0 "MK4" H 10200 1151 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 10200 1060 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10200 1060 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10100 1100 50  0001 C CNN
 F 3 "" H 10100 1100 50  0001 C CNN
 	1    10100 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 1200 9100 1200
-Wire Wire Line
-	9100 1200 8100 1200
-Connection ~ 9100 1200
-Wire Wire Line
-	8100 1200 7100 1200
-Connection ~ 8100 1200
 $Comp
 L power:GND #PWR01
 U 1 1 5AFD3ED2
@@ -440,7 +432,6 @@ F 3 "" H 7100 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 1200 7100 1300
-Connection ~ 7100 1200
 Wire Wire Line
 	2500 7200 2950 7200
 Wire Wire Line
@@ -765,4 +756,12 @@ F 3 "" H 5900 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 1000 5900 1000
+Wire Wire Line
+	7100 1200 8100 1200
+Connection ~ 9100 1200
+Wire Wire Line
+	9100 1200 10100 1200
+Connection ~ 8100 1200
+Wire Wire Line
+	8100 1200 9100 1200
 $EndSCHEMATC
