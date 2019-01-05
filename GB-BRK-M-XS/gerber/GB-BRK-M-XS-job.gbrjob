@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "5.0.2-bee76a0~70~ubuntu18.10.1"
     },
-    "CreationDate":  "2019-01-06T00:11:17+02:00"
+    "CreationDate":  "2019-01-06T00:10:49+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "GB-CART2M-A",
-      "GUID": "47422d43-4152-4543-924d-2d412e6b6963",
+      "Name": "GB-BRK-M-XS",
+      "GUID": "47422d42-524b-42d4-9d2d-58532e6b6963",
       "Revision": "v1.0"
     },
     "Size":
     {
       "X": 51.550,
-      "Y": 61.150
+      "Y": 25.150
     },
     "LayerNumber": 2,
     "BoardThickness":  1.000
@@ -29,58 +29,58 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
-      "MinLineWidth":  0.200,
-      "TrackToRegion":  0.200,
-      "RegionToRegion":  0.200
+      "PadToPad":  0.400,
+      "PadToTrack":  0.400,
+      "TrackToTrack":  0.400,
+      "MinLineWidth":  0.400,
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "GB-CART2M-A-F.Cu.gbr",
+      "Path":  "GB-BRK-M-XS-F.Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B.Cu.gbr",
+      "Path":  "GB-BRK-M-XS-B.Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F.Paste.gbr",
+      "Path":  "GB-BRK-M-XS-F.Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B.Paste.gbr",
+      "Path":  "GB-BRK-M-XS-B.Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F.SilkS.gbr",
+      "Path":  "GB-BRK-M-XS-F.SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B.SilkS.gbr",
+      "Path":  "GB-BRK-M-XS-B.SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F.Mask.gbr",
+      "Path":  "GB-BRK-M-XS-F.Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-CART2M-A-B.Mask.gbr",
+      "Path":  "GB-BRK-M-XS-B.Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-CART2M-A-Edge.Cuts.gbr",
+      "Path":  "GB-BRK-M-XS-Edge.Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

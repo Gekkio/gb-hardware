@@ -5,16 +5,16 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.1-33cea8e~68~ubuntu18.10.1"
+      "Version":     "5.0.2-bee76a0~70~ubuntu18.10.1"
     },
-    "CreationDate":  "2018-11-26T23:44:30+02:00"
+    "CreationDate":  "2019-01-06T00:10:33+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
       "Name": "GB-BRK-LINK-A",
-      "GUID": "47422D42524B2D4C494E4B2D412E6B69",
+      "GUID": "47422d42-524b-42d4-9c49-4e4b2d412e6b",
       "Revision": "v1.0"
     },
     "Size":
@@ -23,7 +23,7 @@
       "Y": 35.150
     },
     "LayerNumber": 2,
-    "BoardThickness":  1.600
+    "BoardThickness":  1.200
   },
   "DesignRules":
   [
