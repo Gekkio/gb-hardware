@@ -11,6 +11,11 @@ Used libraries:
 
 Test bench board for 1st generation Game Boy CPUs (DMG-CPU, SGB-CPU).
 
+* PCB size: 100x100mm
+* PCB thickness: any
+* Layer count: 4
+* Surface finish: any
+
 ![GB-BENCH-G1 v1.0](GB-BENCH-G1-v1.0.jpg)
 
 ![GB-BENCH-G1 v1.0 KiCad 3D view](GB-BENCH-G1.3d.png)
@@ -20,7 +25,7 @@ Test bench board for 1st generation Game Boy CPUs (DMG-CPU, SGB-CPU).
 Breakout Game Boy cartridge.
 
 * PCB size: 51.4x61mm
-* PCB thickness: 0.8mm
+* PCB thickness: 1.0mm
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not* choose HASL)
 
@@ -35,7 +40,7 @@ Breakout Game Boy cartridge.
 Breakout board for original Game Boy (DMG) link port.
 
 * PCB size: 30x34mm
-* PCB thickness: any
+* PCB thickness: 1.2mm
 * Layer count: 2
 * Surface finish: any
 
@@ -45,6 +50,11 @@ Breakout board for original Game Boy (DMG) link port.
 
 Compact male breakout board for the Game Boy cartridge slot.
 
+* PCB size: 51.4x25mm
+* PCB thickness: 1.0mm
+* Layer count: 2
+* Surface finish: ENIG (absolutely *do not* choose HASL)
+
 ![GB-BRK-M-XS v1.0 KiCad 3D view](GB-BRK-M-XS.3d.png)
 
 ## GB-BRK-SLOT-A
@@ -52,7 +62,7 @@ Compact male breakout board for the Game Boy cartridge slot.
 Breakout board for original Game Boy (DMG) cartridge slot.
 
 * PCB size: 81x80mm
-* PCB thickness: any
+* PCB thickness: 1.2mm
 * Layer count: 2
 * Surface finish: any
 
@@ -63,7 +73,7 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 32 kB ROM-only rapid development cartridge.
 
 * PCB size: 51.4x61mm
-* PCB thickness: 0.8mm
+* PCB thickness: 1.0mm
 * Layer count: 4
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
@@ -76,7 +86,7 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 Simple ROM-only flash cartridge for 1Mbit/2Mbit PLCC-32 flash.
 
 * PCB size: 51.4x61mm
-* PCB thickness: 0.8mm
+* PCB thickness: 1.0mm
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
@@ -86,10 +96,20 @@ Simple ROM-only flash cartridge for 1Mbit/2Mbit PLCC-32 flash.
 
 Breakout board for 1st generation Game Boy CPUs (DMG/SGB).
 
+* PCB size: 80x80mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
+
 ![GB-BRK-CPU-G1 v1.0 3D view](GB-BRK-CPU-G1.3d.png)
 
 ## GB-BRK-CPU-G2
 
 Breakout board for 2nd generation Game Boy CPUs (MGB/SGB2).
+
+* PCB size: 80x80mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
 
 ![GB-BRK-CPU-G2 v1.0 3D view](GB-BRK-CPU-G2.3d.png)
