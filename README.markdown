@@ -90,7 +90,7 @@ Simple ROM-only flash cartridge for 1Mbit/2Mbit PLCC-32 flash.
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
-![GB-CART2M-A v1.0 KiCad 3D view](GB-CART2M-A.3d.png)
+![GB-CART2M-A v1.1 KiCad 3D view](GB-CART2M-A.3d.png)
 
 ## GB-BRK-CPU-G1
 

@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:GB-CART2M-A-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GB-CART2M-A"
 Date ""
-Rev "v1.0"
+Rev "v1.1"
 Comp "https://gekkio.fi"
 Comment1 ""
 Comment2 ""
@@ -37,7 +37,7 @@ F 3 "https://datasheet.octopart.com/AT49F002T-90JC-Atmel-datasheet-821.pdf" H 75
 	1    0    0    -1  
 $EndComp
 $Comp
-L Gekkio_CPLD_Lattice:LC4032ZE-XXTN48 U1
+L Gekkio_CPLD_Lattice:LC4032ZE-xxTN48 U1
 U 1 1 5BD37254
 P 2300 3700
 F 0 "U1" H 1550 5150 50  0000 C CNN
@@ -339,13 +339,7 @@ F 3 "" H 2300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 5300 2200 5300
-Connection ~ 2200 5300
-Wire Wire Line
 	2200 5300 2300 5300
-Connection ~ 2400 5300
-Wire Wire Line
-	2400 5300 2700 5300
 Wire Wire Line
 	2300 5300 2300 5400
 Connection ~ 2300 5300
@@ -356,7 +350,7 @@ L Device:C C4
 U 1 1 5BD3A555
 P 7000 5950
 F 0 "C4" H 7115 5996 50  0000 L CNN
-F 1 "0.1uF" H 7115 5905 50  0000 L CNN
+F 1 "100nF" H 7115 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 5800 50  0001 C CNN
 F 3 "~" H 7000 5950 50  0001 C CNN
 	1    7000 5950
@@ -430,7 +424,7 @@ L Device:C C7
 U 1 1 5BD3C674
 P 8500 5950
 F 0 "C7" H 8615 5996 50  0000 L CNN
-F 1 "0.1uF" H 8615 5905 50  0000 L CNN
+F 1 "100nF" H 8615 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 5800 50  0001 C CNN
 F 3 "~" H 8500 5950 50  0001 C CNN
 	1    8500 5950
@@ -504,7 +498,7 @@ L Device:C C9
 U 1 1 5BD3E2EC
 P 9500 5950
 F 0 "C9" H 9615 5996 50  0000 L CNN
-F 1 "0.1uF" H 9615 5905 50  0000 L CNN
+F 1 "100nF" H 9615 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 5800 50  0001 C CNN
 F 3 "~" H 9500 5950 50  0001 C CNN
 	1    9500 5950
@@ -551,10 +545,10 @@ Wire Wire Line
 	850  6700 1400 6700
 Connection ~ 1400 6700
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP2
 U 1 1 5BD4139D
 P 3500 6600
-F 0 "TP3" H 3500 6925 50  0000 C CNN
+F 0 "TP2" H 3500 6925 50  0000 C CNN
 F 1 "TestPoint" H 3500 6834 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3700 6600 50  0001 C CNN
 F 3 "~" H 3700 6600 50  0001 C CNN
@@ -566,10 +560,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 6800 3100 6800
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP3
 U 1 1 5BD42C3D
 P 4300 6600
-F 0 "TP5" H 4300 6925 50  0000 C CNN
+F 0 "TP3" H 4300 6925 50  0000 C CNN
 F 1 "TestPoint" H 4300 6834 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4500 6600 50  0001 C CNN
 F 3 "~" H 4500 6600 50  0001 C CNN
@@ -748,7 +742,7 @@ L Device:R R4
 U 1 1 5BD4FA10
 P 9000 4550
 F 0 "R4" H 9070 4596 50  0000 L CNN
-F 1 "R" H 9070 4505 50  0000 L CNN
+F 1 "47k" H 9070 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 4550 50  0001 C CNN
 F 3 "~" H 9000 4550 50  0001 C CNN
 	1    9000 4550
@@ -1003,21 +997,13 @@ F 3 "" H 4800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 3000 4300 3000
-Wire Wire Line
-	3300 2800 4200 2800
-Wire Wire Line
-	3300 2700 4100 2700
-Wire Wire Line
-	4000 1500 4000 2900
-Wire Wire Line
-	4000 2900 3300 2900
+	4000 1500 4000 2800
 $Comp
 L Device:C C6
 U 1 1 5C05C6A6
 P 8000 5950
 F 0 "C6" H 8115 5996 50  0000 L CNN
-F 1 "0.1uF" H 8115 5905 50  0000 L CNN
+F 1 "100nF" H 8115 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 5800 50  0001 C CNN
 F 3 "~" H 8000 5950 50  0001 C CNN
 	1    8000 5950
@@ -1054,7 +1040,7 @@ L Device:C C10
 U 1 1 5C0651D5
 P 10000 5950
 F 0 "C10" H 10115 5996 50  0000 L CNN
-F 1 "0.1uF" H 10115 5905 50  0000 L CNN
+F 1 "100nF" H 10115 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 5800 50  0001 C CNN
 F 3 "~" H 10000 5950 50  0001 C CNN
 	1    10000 5950
@@ -1086,17 +1072,6 @@ F 3 "" H 10000 5700 50  0001 C CNN
 	1    10000 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
-U 1 1 5C0806A5
-P 5300 1700
-F 0 "J1" H 5350 2117 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 5350 2026 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 5300 1700 50  0001 C CNN
-F 3 "~" H 5300 1700 50  0001 C CNN
-	1    5300 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 1400 4300 1900
 Wire Wire Line
@@ -1108,8 +1083,6 @@ Wire Wire Line
 	4800 1500 5100 1500
 Wire Wire Line
 	5100 1600 4100 1600
-Wire Wire Line
-	4100 1600 4100 2700
 NoConn ~ 5100 1800
 NoConn ~ 5600 1700
 NoConn ~ 5600 1800
@@ -1139,8 +1112,6 @@ Connection ~ 4300 1100
 Wire Wire Line
 	4200 1700 4600 1700
 Wire Wire Line
-	4200 1700 4200 2800
-Wire Wire Line
 	4600 1400 4600 1700
 Connection ~ 4600 1700
 Wire Wire Line
@@ -1149,7 +1120,7 @@ Wire Wire Line
 	5100 1900 4300 1900
 Connection ~ 4300 1900
 Wire Wire Line
-	4300 1900 4300 3000
+	4300 1900 4300 2700
 Wire Wire Line
 	4800 2300 4800 2400
 Text Label 5000 1600 2    50   ~ 0
@@ -1160,28 +1131,6 @@ Text Label 5000 1700 2    50   ~ 0
 TMS
 Text Label 5000 1900 2    50   ~ 0
 TDI
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5C1031E6
-P 1000 3200
-F 0 "TP2" H 943 3320 50  0000 R CNN
-F 1 "TestPoint" H 943 3229 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1200 3200 50  0001 C CNN
-F 3 "~" H 1200 3200 50  0001 C CNN
-	1    1000 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5C114A14
-P 1000 3400
-F 0 "TP4" H 943 3520 50  0000 R CNN
-F 1 "TestPoint" H 943 3429 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1200 3400 50  0001 C CNN
-F 3 "~" H 1200 3400 50  0001 C CNN
-	1    1000 3400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3300 4000
 NoConn ~ 3300 4100
 NoConn ~ 3300 4400
@@ -1230,10 +1179,6 @@ Wire Wire Line
 	1200 3700 1300 3700
 NoConn ~ 1300 3900
 NoConn ~ 1300 4000
-Wire Wire Line
-	1300 3400 1000 3400
-Wire Wire Line
-	1000 3200 1300 3200
 NoConn ~ 1300 3300
 NoConn ~ 1300 3500
 NoConn ~ 1300 3600
@@ -1258,4 +1203,35 @@ Wire Wire Line
 Connection ~ 850  2700
 Wire Wire Line
 	850  2700 1300 2700
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 5CDB779B
+P 5300 1700
+F 0 "J1" H 5350 2117 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 5350 2026 50  0000 C CNN
+F 2 "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 5300 1700 50  0001 C CNN
+F 3 "~" H 5300 1700 50  0001 C CNN
+	1    5300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5300 2200 5300
+Connection ~ 2200 5300
+Connection ~ 2400 5300
+Wire Wire Line
+	2400 5300 2600 5300
+Wire Wire Line
+	4100 3000 3300 3000
+Wire Wire Line
+	4100 1600 4100 3000
+Wire Wire Line
+	3300 2800 4000 2800
+Wire Wire Line
+	3300 2900 4200 2900
+Wire Wire Line
+	4200 1700 4200 2900
+Wire Wire Line
+	3300 2700 4300 2700
+NoConn ~ 1300 3200
+NoConn ~ 1300 3400
 $EndSCHEMATC
