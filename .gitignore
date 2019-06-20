@@ -11,3 +11,4 @@ _autosave-*
 *.ses
 *.xml
 *.csv
+fp-info-cache
