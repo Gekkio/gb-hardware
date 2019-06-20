@@ -46,6 +46,17 @@ Breakout board for original Game Boy (DMG) link port.
 
 ![GB-BRK-LINK-A v1.0 KiCad 3D view](GB-BRK-LINK-A.3d.png)
 
+## GB-BRK-LINK-B
+
+Breakout board for compact link port used in Game Boy Pocket (MGB) and later.
+
+* PCB size: 30x34mm
+* PCB thickness: 1.2mm
+* Layer count: 2
+* Surface finish: any
+
+![GB-BRK-LINK-B v1.0 KiCad 3D view](GB-BRK-LINK-B.3d.png)
+
 ## GB-BRK-M-XS
 
 Compact male breakout board for the Game Boy cartridge slot.
