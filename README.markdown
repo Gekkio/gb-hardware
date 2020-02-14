@@ -102,7 +102,7 @@ Simple ROM-only flash cartridge for 32kx8 PLCC-32 flash (larger chips up to
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
-![GB-CART32K-A v1.0 KiCad 3D view](GB-CART32K-A.3d.png)
+![GB-CART32K-A v1.1 KiCad 3D view](GB-CART32K-A.3d.png)
 
 ## GB-CART256K-A
 
