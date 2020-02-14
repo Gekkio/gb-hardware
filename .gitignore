@@ -3,6 +3,7 @@
 *.log
 *.swp
 *.zip
+*.sch-bak
 *.kicad_pcb-bak
 _autosave-*
 *.tmp
