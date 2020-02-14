@@ -79,6 +79,18 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 
 ![GB-BRK-SLOT-A v1.0 KiCad 3D view](GB-BRK-SLOT-A.3d.png)
 
+## GB-BRK-SLOT-B
+
+Breakout board for Super Game Boy (SGB) / Super Game Boy 2 (SGB2) cartridge
+slot.
+
+* PCB size: 81x80mm
+* PCB thickness: 1.2mm
+* Layer count: 2
+* Surface finish: any
+
+![GB-BRK-SLOT-B v1.0 KiCad 3D view](GB-BRK-SLOT-B.3d.png)
+
 ## GB-LIVE32
 
 32 kB ROM-only rapid development cartridge.
