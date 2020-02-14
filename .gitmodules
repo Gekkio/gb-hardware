@@ -100,3 +100,12 @@
 [submodule "GB-BRK-TR-A/external/kicad-symbols"]
 	path = GB-BRK-TR-A/external/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-MBCTEST/external/gekkio-kicad-libs"]
+	path = GB-MBCTEST/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-MBCTEST/external/kicad-footprints"]
+	path = GB-MBCTEST/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-MBCTEST/external/kicad-symbols"]
+	path = GB-MBCTEST/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git

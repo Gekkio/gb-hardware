@@ -151,3 +151,14 @@ Breakout board for original Game Boy (DMG) power board transformer.
 * Surface finish: any
 
 ![GB-BRK-TR-A v1.0 3D view](GB-BRK-TR-A.3d.png)
+
+## GB-MBCTEST
+
+Game Boy MBC (Memory Bank Controller) testing cartridge.
+
+* PCB size: 51.4x61mm
+* PCB thickness: 1.0mm
+* Layer count: 2
+* Surface finish: ENIG (absolutely *do not choose HASL*)
+
+![GB-MBCTEST v1.1 KiCad 3D view](GB-MBCTEST.3d.png)
