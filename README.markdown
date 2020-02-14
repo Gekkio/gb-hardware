@@ -124,7 +124,7 @@ Breakout board for 1st generation Game Boy CPUs (DMG/SGB).
 * Layer count: 2
 * Surface finish: any
 
-![GB-BRK-CPU-G1 v1.0 3D view](GB-BRK-CPU-G1.3d.png)
+![GB-BRK-CPU-G1 v1.1 3D view](GB-BRK-CPU-G1.3d.png)
 
 ## GB-BRK-CPU-G2
 
@@ -135,4 +135,4 @@ Breakout board for 2nd generation Game Boy CPUs (MGB/SGB2).
 * Layer count: 2
 * Surface finish: any
 
-![GB-BRK-CPU-G2 v1.0 3D view](GB-BRK-CPU-G2.3d.png)
+![GB-BRK-CPU-G2 v1.1 3D view](GB-BRK-CPU-G2.3d.png)

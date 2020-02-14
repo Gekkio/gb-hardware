@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:GB-BRK-CPU-G2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GB-BRK-CPU-G2"
 Date ""
-Rev "v1.0"
+Rev "v1.1"
 Comp "https://gekkio.fi"
 Comment1 ""
 Comment2 ""
@@ -167,9 +167,9 @@ Text Label 1800 5400 2    50   ~ 0
 Pin_76
 Text Label 1800 5600 2    50   ~ 0
 Pin_26
-Text Label 1800 5700 2    50   ~ 0
-Pin_28
 Text Label 1800 5800 2    50   ~ 0
+Pin_28
+Text Label 1800 5700 2    50   ~ 0
 Pin_27
 Text Label 1800 6000 2    50   ~ 0
 Pin_39
