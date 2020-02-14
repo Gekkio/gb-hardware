@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:GB-CART32K-A-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GB-CART32K-A"
 Date ""
-Rev "v1.0"
+Rev "v1.1"
 Comp "https://gekkio.fi"
 Comment1 ""
 Comment2 ""

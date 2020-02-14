@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu19.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu19.10.1)
 
   (general
     (thickness 1)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title GB-CART32K-A)
-    (rev v1.0)
+    (rev v1.1)
     (company https://gekkio.fi)
   )
 
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.3)
     (user_trace_width 0.6)
     (trace_clearance 0.3)
     (zone_clearance 0.2)
@@ -163,6 +163,10 @@
     (add_net /~ROM_CS)
     (add_net /~ROM_WR)
     (add_net GND)
+    (add_net "Net-(J1-Pad2)")
+    (add_net "Net-(J1-Pad3)")
+    (add_net "Net-(J1-Pad30)")
+    (add_net "Net-(J1-Pad5)")
   )
 
   (module TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D0BA325)
@@ -727,7 +731,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 7.2 7.2) (drill 7.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "32k-512k x8\nJEDEC\n5V" (at 88.9 66) (layer F.SilkS)
+  (gr_text "32k-512k\nJEDEC\n5V" (at 88.9 66) (layer F.SilkS) (tstamp 5E46DA72)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "R1-R3\nchoose\n1x47k" (at 100 54.7) (layer F.SilkS) (tstamp 5D0C109B)
@@ -755,7 +759,7 @@
   (gr_arc (start 125.2 90.9) (end 125.2 91.4) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 76.3 99.1) (end 75.4 99.1) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5CDB1894))
   (gr_arc (start 123.7 99.1) (end 123.7 100) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "GB-CART32K-A v1.0\nhttps://gekkio.fi" (at 109.9 44.4) (layer F.SilkS)
+  (gr_text "GB-CART32K-A v1.1\nhttps://gekkio.fi" (at 109.9 44.4) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (gr_text "PCB size: 51.4x61mm\nPCB thickness: 1.0mm" (at 127 104) (layer F.Fab) (tstamp 5B435DDA)
