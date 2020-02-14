@@ -5,17 +5,17 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.2-f72e74a~84~ubuntu19.04.1"
+      "Version":     "5.1.5-52549c5~84~ubuntu19.10.1"
     },
-    "CreationDate":  "2019-06-20T20:29:00+03:00"
+    "CreationDate":  "2020-02-14T19:30:31+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "GB-CART2M-A",
-      "GUID": "47422d43-4152-4543-924d-2d412e6b6963",
-      "Revision": "v1.1"
+      "Name": "GB-CART256K-A",
+      "GUID": "47422d43-4152-4543-9235-364b2d412e6b",
+      "Revision": "v1.2"
     },
     "Size":
     {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "GB-CART2M-A-F_Cu.gbr",
+      "Path":  "GB-CART256K-A-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B_Cu.gbr",
+      "Path":  "GB-CART256K-A-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F_Paste.gbr",
+      "Path":  "GB-CART256K-A-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B_Paste.gbr",
+      "Path":  "GB-CART256K-A-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F_SilkS.gbr",
+      "Path":  "GB-CART256K-A-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-B_SilkS.gbr",
+      "Path":  "GB-CART256K-A-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-CART2M-A-F_Mask.gbr",
+      "Path":  "GB-CART256K-A-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-CART2M-A-B_Mask.gbr",
+      "Path":  "GB-CART256K-A-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-CART2M-A-Edge_Cuts.gbr",
+      "Path":  "GB-CART256K-A-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

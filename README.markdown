@@ -104,16 +104,16 @@ Simple ROM-only flash cartridge for 32kx8 PLCC-32 flash (larger chips up to
 
 ![GB-CART32K-A v1.0 KiCad 3D view](GB-CART32K-A.3d.png)
 
-## GB-CART2M-A
+## GB-CART256K-A
 
-Simple ROM-only flash cartridge for 1Mbit/2Mbit PLCC-32 flash.
+Simple ROM-only flash cartridge for 128kx8 / 256kx8 PLCC-32 flash.
 
 * PCB size: 51.4x61mm
 * PCB thickness: 1.0mm
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
-![GB-CART2M-A v1.1 KiCad 3D view](GB-CART2M-A.3d.png)
+![GB-CART256K-A v1.2 KiCad 3D view](GB-CART256K-A.3d.png)
 
 ## GB-BRK-CPU-G1
 
