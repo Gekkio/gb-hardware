@@ -88,6 +88,8 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 * Layer count: 4
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
+[Firmware + software](https://github.com/Gekkio/gb-live32)
+
 [GB-LIVE32 v2.0 Mouser project for easy part shopping](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=16281c67ef)
 
 ![GB-LIVE32 v2.0 KiCad 3D view](GB-LIVE32.3d.png)
@@ -112,6 +114,8 @@ Simple ROM-only flash cartridge for 128kx8 / 256kx8 PLCC-32 flash.
 * PCB thickness: 1.0mm
 * Layer count: 2
 * Surface finish: ENIG (absolutely *do not choose HASL*)
+
+[Firmware](https://github.com/Gekkio/gb-cart256k-a)
 
 ![GB-CART256K-A v1.2 KiCad 3D view](GB-CART256K-A.3d.png)
 
