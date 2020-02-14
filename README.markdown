@@ -77,7 +77,7 @@ Breakout board for original Game Boy (DMG) cartridge slot.
 * Layer count: 2
 * Surface finish: any
 
-![GB-BRK-SLOT-A v1.0 KiCad 3D view](GB-BRK-SLOT-A.3d.png)
+![GB-BRK-SLOT-A v1.1 KiCad 3D view](GB-BRK-SLOT-A.3d.png)
 
 ## GB-BRK-SLOT-B
 

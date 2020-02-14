@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2-bee76a0~70~ubuntu18.10.1"
+      "Version":     "5.1.5-52549c5~84~ubuntu19.10.1"
     },
-    "CreationDate":  "2019-01-06T00:11:04+02:00"
+    "CreationDate":  "2020-02-14T21:46:08+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "GB-BRK-SLOT-A",
       "GUID": "47422d42-524b-42d5-934c-4f542d412e6b",
-      "Revision": "v1.0"
+      "Revision": "v1.1"
     },
     "Size":
     {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "GB-BRK-SLOT-A-F.Cu.gbr",
+      "Path":  "GB-BRK-SLOT-A-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-B.Cu.gbr",
+      "Path":  "GB-BRK-SLOT-A-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-F.Paste.gbr",
+      "Path":  "GB-BRK-SLOT-A-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-B.Paste.gbr",
+      "Path":  "GB-BRK-SLOT-A-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-F.SilkS.gbr",
+      "Path":  "GB-BRK-SLOT-A-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-B.SilkS.gbr",
+      "Path":  "GB-BRK-SLOT-A-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-F.Mask.gbr",
+      "Path":  "GB-BRK-SLOT-A-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-B.Mask.gbr",
+      "Path":  "GB-BRK-SLOT-A-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-BRK-SLOT-A-Edge.Cuts.gbr",
+      "Path":  "GB-BRK-SLOT-A-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

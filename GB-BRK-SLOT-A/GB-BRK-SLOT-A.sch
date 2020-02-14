@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:GB-BRK-SLOT-A-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GB-BRK-SLOT-A"
 Date ""
-Rev "v1.0"
+Rev "v1.1"
 Comp "https://gekkio.fi"
 Comment1 ""
 Comment2 ""
@@ -1147,6 +1146,7 @@ Wire Wire Line
 	5800 1250 5800 1300
 Wire Wire Line
 	5800 1300 5500 1300
+Connection ~ 5500 1300
 Wire Bus Line
 	5300 4100 5300 4600
 Wire Bus Line
@@ -1159,5 +1159,4 @@ Wire Bus Line
 	3550 2200 3550 4100
 Wire Bus Line
 	5300 1400 5300 4100
-Connection ~ 5500 1300
 $EndSCHEMATC

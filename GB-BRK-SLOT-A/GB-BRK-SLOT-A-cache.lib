@@ -128,6 +128,12 @@ F0 "JP" 0 80 50 H V C CNN
 F1 "Device_Jumper_NC_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
 DRAW
 A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
 C -40 0 20 0 1 0 N
@@ -150,9 +156,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
