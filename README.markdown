@@ -136,3 +136,14 @@ Breakout board for 2nd generation Game Boy CPUs (MGB/SGB2).
 * Surface finish: any
 
 ![GB-BRK-CPU-G2 v1.1 3D view](GB-BRK-CPU-G2.3d.png)
+
+## GB-BRK-TR-A
+
+Breakout board for original Game Boy (DMG) power board transformer.
+
+* PCB size: 24x35mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
+
+![GB-BRK-TR-A v1.0 3D view](GB-BRK-TR-A.3d.png)

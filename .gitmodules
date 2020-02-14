@@ -91,3 +91,12 @@
 [submodule "GB-CART32K-A/external/kicad-symbols"]
 	path = GB-CART32K-A/external/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-BRK-TR-A/external/gekkio-kicad-libs"]
+	path = GB-BRK-TR-A/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-BRK-TR-A/external/kicad-footprints"]
+	path = GB-BRK-TR-A/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-BRK-TR-A/external/kicad-symbols"]
+	path = GB-BRK-TR-A/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git
