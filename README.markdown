@@ -31,8 +31,6 @@ Breakout Game Boy cartridge.
 
 [GB-BRK-CART v4.0 Mouser project for easy part shopping](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61700168c3)
 
-![GB-BRK-M v3.0](GB-BRK-M.jpg)
-
 ![GB-BRK-CART v4.0 KiCad 3D view](GB-BRK-CART.3d.png)
 
 ## GB-BRK-LINK-A
