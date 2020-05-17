@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2-bee76a0~70~ubuntu18.10.1"
+      "Version":     "5.1.6-c6e7f7d~86~ubuntu20.04.1"
     },
-    "CreationDate":  "2019-01-06T00:10:33+02:00"
+    "CreationDate":  "2020-05-17T16:04:05+03:00"
   },
   "GeneralSpecs":
   {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "GB-BRK-LINK-A-F.Cu.gbr",
+      "Path":  "GB-BRK-LINK-A-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-B.Cu.gbr",
+      "Path":  "GB-BRK-LINK-A-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-F.Paste.gbr",
+      "Path":  "GB-BRK-LINK-A-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-B.Paste.gbr",
+      "Path":  "GB-BRK-LINK-A-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-F.SilkS.gbr",
+      "Path":  "GB-BRK-LINK-A-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-B.SilkS.gbr",
+      "Path":  "GB-BRK-LINK-A-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-BRK-LINK-A-F.Mask.gbr",
+      "Path":  "GB-BRK-LINK-A-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-BRK-LINK-A-B.Mask.gbr",
+      "Path":  "GB-BRK-LINK-A-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-BRK-LINK-A-Edge.Cuts.gbr",
+      "Path":  "GB-BRK-LINK-A-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

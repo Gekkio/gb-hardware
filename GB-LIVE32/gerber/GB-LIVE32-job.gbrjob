@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2-bee76a0~70~ubuntu18.10.1"
+      "Version":     "5.1.6-c6e7f7d~86~ubuntu20.04.1"
     },
-    "CreationDate":  "2019-01-06T00:11:33+02:00"
+    "CreationDate":  "2020-05-17T16:09:38+03:00"
   },
   "GeneralSpecs":
   {
@@ -48,57 +48,57 @@
   "FilesAttributes":
   [
     {
-      "Path":  "GB-LIVE32-F.Cu.gbr",
+      "Path":  "GB-LIVE32-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-In1.Cu.gbr",
+      "Path":  "GB-LIVE32-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-In2.Cu.gbr",
+      "Path":  "GB-LIVE32-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-B.Cu.gbr",
+      "Path":  "GB-LIVE32-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-F.Paste.gbr",
+      "Path":  "GB-LIVE32-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-B.Paste.gbr",
+      "Path":  "GB-LIVE32-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-F.SilkS.gbr",
+      "Path":  "GB-LIVE32-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-B.SilkS.gbr",
+      "Path":  "GB-LIVE32-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GB-LIVE32-F.Mask.gbr",
+      "Path":  "GB-LIVE32-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-LIVE32-B.Mask.gbr",
+      "Path":  "GB-LIVE32-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GB-LIVE32-Edge.Cuts.gbr",
+      "Path":  "GB-LIVE32-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
