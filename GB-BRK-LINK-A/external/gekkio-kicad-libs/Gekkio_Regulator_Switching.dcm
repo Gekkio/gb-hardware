@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM2308BYMAA
+D Dual high-efficiency PWM step-down DC-DC converter
+K regulator dc-dc buck step-down dual
+F https://www.diodes.com/assets/Datasheets/PAM2308.pdf
+$ENDCMP
+#
+#End Doc Library

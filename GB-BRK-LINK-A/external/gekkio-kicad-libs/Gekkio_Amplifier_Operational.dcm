@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV2316
+D Dual 10-MHz, Rail-to-Rail Input/Output, Low-Voltage, 1.8-V CMOS Operational Amplifier, VSSOP-8/SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/tlv2316.pdf
+$ENDCMP
+#
+$CMP TLV316IDBV
+D Single 10-MHz, Rail-to-Rail Input/Output, Low-Voltage, 1.8-V CMOS Operational Amplifier, SOT23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tlv316.pdf
+$ENDCMP
+#
+$CMP TLV316IDCK
+D Single 10-MHz, Rail-to-Rail Input/Output, Low-Voltage, 1.8-V CMOS Operational Amplifier, SC70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tlv316.pdf
+$ENDCMP
+#
+$CMP TLV4316
+D Quad 10-MHz, Rail-to-Rail Input/Output, Low-Voltage, 1.8-V CMOS Operational Amplifier, TSSOP-14/SOIC-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/tlv4316.pdf
+$ENDCMP
+#
+#End Doc Library

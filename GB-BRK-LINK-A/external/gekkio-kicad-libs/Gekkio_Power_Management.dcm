@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC2005A-2YM6
+D Fixed current limiting power distribution switch, SOT-23-6
+K power distribution switch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf
+$ENDCMP
+#
+#End Doc Library
