@@ -172,3 +172,14 @@ Game Boy MBC (Memory Bank Controller) testing cartridge.
 * Surface finish: ENIG (absolutely *do not choose HASL*)
 
 ![GB-MBCTEST v1.1 KiCad 3D view](GB-MBCTEST.3d.png)
+
+## GB-CARTPP-XC
+
+An eXtra Cheap Game Boy cartridge dumper/flasher based on PIC18F45K50.
+
+* PCB size: 80x55mm
+* PCB thickness: any (1.0mm recommended)
+* Layer count: 2
+* Surface finish: any
+
+![GB-CARTPP-XC v1.2 KiCad 3D view](GB-CARTPP-XC.3d.png)
