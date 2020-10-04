@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EMI_Filter_LLL
+D EMI 3-inductor filter
+K EMI filter
+$ENDCMP
+#
+#End Doc Library
