@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Bus_PCIExpress_1x
+D PCI Express 1x connector
+K pci express connector
+F https://en.wikipedia.org/wiki/PCI_Express
+$ENDCMP
+#
+$CMP Bus_PCIExpress_4x
+D PCI Express 4x connector
+K pci express connector
+F https://en.wikipedia.org/wiki/PCI_Express
+$ENDCMP
+#
+$CMP Bus_PCIExpress_8x
+D PCI Express 8x connector
+K pci express connector
+F https://en.wikipedia.org/wiki/PCI_Express
+$ENDCMP
+#
+$CMP GameBoy_Cartridge
+D Game Boy cartridge edge connector
+K gameboy cartridge
+$ENDCMP
+#
+#End Doc Library
