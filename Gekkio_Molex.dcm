@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_Molex_19708
+D PCB Tab Quick Disconnect, Male, for Wire
+K connector molex
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0197084001_QUICK_DISCONNECTS.xml
+$ENDCMP
+#
+#End Doc Library

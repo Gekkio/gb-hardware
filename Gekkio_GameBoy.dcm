@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_GameBoy_Cartridge
+D Game Boy cartridge edge connector
+K gameboy cartridge
+$ENDCMP
+#
+$CMP Conn_GameBoy_Cartridge_Slot
+D Game Boy cartridge slot
+K gameboy cartridge slot
+$ENDCMP
+#
+$CMP GameBoy_CPU_DMG-SGB
+D CPU, original Game Boy (DMG) and Super Game Boy (SGB)
+K gameboy cpu
+$ENDCMP
+#
+$CMP GameBoy_SRAM_64K
+D Game Boy SRAM chip, 64 Kbit (8 Kb x 8)
+K gameboy sram
+$ENDCMP
+#
+#End Doc Library
