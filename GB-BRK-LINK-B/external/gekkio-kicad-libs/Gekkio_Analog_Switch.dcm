@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CBT3125PW
+D Quadruple FET bus switch, TSSOP-14
+K quad fet switch
+F https://assets.nexperia.com/documents/data-sheet/CBT3125.pdf
+$ENDCMP
+#
+#End Doc Library

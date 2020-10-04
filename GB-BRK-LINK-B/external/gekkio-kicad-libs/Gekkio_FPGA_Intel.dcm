@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10M04SAE144
+D MAX 10 FPGA, 4000 LE, single supply, EQFP-144
+$ENDCMP
+#
+$CMP 10M04SCE144
+D MAX 10 FPGA, 4000 LE, single supply, EQFP-144
+$ENDCMP
+#
+#End Doc Library

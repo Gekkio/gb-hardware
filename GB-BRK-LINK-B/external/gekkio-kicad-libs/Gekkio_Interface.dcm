@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBC1
+D Nintendo MBC1
+K memory bank controller
+$ENDCMP
+#
+$CMP MBC2
+D Nintendo MBC2
+K memory bank controller
+$ENDCMP
+#
+#End Doc Library
