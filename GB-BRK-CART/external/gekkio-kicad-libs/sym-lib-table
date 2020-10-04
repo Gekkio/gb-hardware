@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name Gekkio_Connector_Specialized)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Connector_Specialized.lib)(options "")(descr ""))
+  (lib (name Gekkio_CPLD_Lattice)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_CPLD_Lattice.lib)(options "")(descr ""))
+  (lib (name Gekkio_CPU_Nintendo)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_CPU_Nintendo.lib)(options "")(descr ""))
+  (lib (name Gekkio_Diode)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Diode.lib)(options "")(descr ""))
+  (lib (name Gekkio_FPGA_Intel)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_FPGA_Intel.lib)(options "")(descr ""))
+  (lib (name Gekkio_Interface)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Interface.lib)(options "")(descr ""))
+  (lib (name Gekkio_Logic_LevelTranslator)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Logic_LevelTranslator.lib)(options "")(descr ""))
+  (lib (name Gekkio_Memory_RAM)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Memory_RAM.lib)(options "")(descr ""))
+  (lib (name Gekkio_Power_Management)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Power_Management.lib)(options "")(descr ""))
+  (lib (name Gekkio_Regulator_Switching)(type Legacy)(uri /home/joonas/projects/gekkio/gekkio-kicad-libs/Gekkio_Regulator_Switching.lib)(options "")(descr ""))
+)

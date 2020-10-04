@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10M04SCE144
+D Intel MAX 10 FPGA, 4K LE, 144-pin EQFP
+K intel fpga max 10
+$ENDCMP
+#
+#End Doc Library
