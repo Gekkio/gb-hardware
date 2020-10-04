@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GameBoy_CPU_DMG
+D CPU, original Game Boy (DMG) and Super Game Boy (SGB)
+K gameboy cpu
+$ENDCMP
+#
+$CMP GameBoy_CPU_MGB
+D CPU, original Game Boy (DMG) and Super Game Boy (SGB)
+K gameboy cpu
+$ENDCMP
+#
+#End Doc Library
