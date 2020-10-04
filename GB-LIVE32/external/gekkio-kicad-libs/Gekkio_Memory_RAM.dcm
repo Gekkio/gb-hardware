@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GameBoy_SRAM_64K
+D Game Boy SRAM chip, 64 Kbit (8 Kb x 8)
+K gameboy sram
+F http://rchobby-bg.com/PDFs/IC/LH5164.pdf
+$ENDCMP
+#
+$CMP IS61LV256AL-10J
+D 32K x 8 Low Voltage Static RAM
+K memory SRAM
+F http://www.issi.com/WW/pdf/61LV256AL.pdf
+$ENDCMP
+#
+$CMP IS61LV256AL-10T
+D 32K x 8 Low Voltage Static RAM, TSOP-I
+K memory SRAM
+F http://www.issi.com/WW/pdf/61LV256AL.pdf
+$ENDCMP
+#
+#End Doc Library
