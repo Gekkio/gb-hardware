@@ -136,3 +136,12 @@
 [submodule "GB-CARTPP-XC/external/kicad-symbols"]
 	path = GB-CARTPP-XC/external/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "GB-CARTPP-DIY/external/gekkio-kicad-libs"]
+	path = GB-CARTPP-DIY/external/gekkio-kicad-libs
+	url = https://github.com/Gekkio/gekkio-kicad-libs.git
+[submodule "GB-CARTPP-DIY/external/kicad-footprints"]
+	path = GB-CARTPP-DIY/external/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "GB-CARTPP-DIY/external/kicad-symbols"]
+	path = GB-CARTPP-DIY/external/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git

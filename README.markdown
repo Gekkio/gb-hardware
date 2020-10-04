@@ -183,3 +183,15 @@ An eXtra Cheap Game Boy cartridge dumper/flasher based on PIC18F45K50.
 * Surface finish: any
 
 ![GB-CARTPP-XC v1.2 KiCad 3D view](GB-CARTPP-XC.3d.png)
+
+## GB-CARTPP-DIY
+
+A Game Boy cartridge dumper/flasher based on PIC18F45K50 with DIY-friendly
+parts (big and easy to solder).
+
+* PCB size: 100x100mm
+* PCB thickness: any
+* Layer count: 2
+* Surface finish: any
+
+![GB-CARTPP-DIY v1.1 KiCad 3D view](GB-CARTPP-DIY.3d.png)
