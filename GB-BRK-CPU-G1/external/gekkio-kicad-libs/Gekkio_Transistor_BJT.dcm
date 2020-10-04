@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RN4986
+D Dual Digital NPN+NPN Transistor, 4k7/47k
+K Toshiba Digital NPN+PNP Transistor
+$ENDCMP
+#
+#End Doc Library
