@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Gekkio_CUIInc)(type KiCad)(uri "$(KIPRJMOD)/Gekkio_CUIInc.pretty")(options "")(descr ""))
+  (lib (name Gekkio_CWIndustries)(type KiCad)(uri "$(KIPRJMOD)/Gekkio_CWIndustries.pretty")(options "")(descr ""))
+  (lib (name Gekkio_E-Switch)(type KiCad)(uri "$(KIPRJMOD)/Gekkio_E-Switch.pretty")(options "")(descr ""))
+  (lib (name Gekkio_GameBoy)(type KiCad)(uri "$(KIPRJMOD)/Gekkio_GameBoy.pretty")(options "")(descr ""))
+  (lib (name Gekkio_Molex)(type KiCad)(uri "$(KIPRJMOD)/Gekkio_Molex.pretty")(options "")(descr ""))
+)
