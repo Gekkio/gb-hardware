@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NSR0530H
+D 30V 500mA Schottky diode, SOD-323
+K diode Schottky
+F http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF
+$ENDCMP
+#
+#End Doc Library

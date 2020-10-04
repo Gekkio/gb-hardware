@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4818
+D 350mW Audio Power Amplifier with Shutdown Mode, SOIC-8
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm4818.pdf
+$ENDCMP
+#
+#End Doc Library
