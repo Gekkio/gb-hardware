@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HF-A11-SMT
+D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
+K WiFi IEEE802.11 b/g/n
+F http://www.hi-flying.com/index.php?route=tool/upload/download&code=190ec6c62d497905ed783d140f8e5af7a753b8ab
+$ENDCMP
+#
+#End Doc Library

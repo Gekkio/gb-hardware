@@ -1,0 +1,207 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL220K4-G
+D Temperature Compensated Constant Current LED IC, D-PAK
+K Constant Current LED Driver IC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
+$ENDCMP
+#
+$CMP CL220N5-G
+D Temperature Compensated Constant Current LED IC, TO-220
+K Constant Current LED Driver IC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
+$ENDCMP
+#
+$CMP HV9921N8-G
+D 3pin Constant Current 20mA LED Driver, SOT89
+K CC LED Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
+$ENDCMP
+#
+$CMP HV9922N8-G
+D 3pin Constant Current 50mA LED Driver, SOT89
+K CC LED Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
+$ENDCMP
+#
+$CMP HV9923N8-G
+D 3pin Constant Current 30mA LED Driver, SOT89
+K CC LED Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
+$ENDCMP
+#
+$CMP HV9925SG-G
+D Programmable Current LED Lamp Driver, SO8 w/Heat Slug
+K Programmable Current LED Lamp Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9925.pdf
+$ENDCMP
+#
+$CMP HV9930LG-G
+D Boost-Buck LED Lamp Driver, SO8
+K Buck-Boost LED Lamp Driver High Voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9930.pdf
+$ENDCMP
+#
+$CMP HV9931LG-G
+D PFC Boost-Buck LED Lamp Driver, SO8
+K Buck-Boost LED Lamp Driver High Voltage PFC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9931.pdf
+$ENDCMP
+#
+$CMP HV9961LG-G
+D Buck LED Lamp Driver Average-Mode Constant Current, SO8
+K Buck LED Lamp Driver High Voltage Average CC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005588A.pdf
+$ENDCMP
+#
+$CMP HV9961NG-G
+D Buck LED Lamp Driver Average-Mode Constant Current, SO16
+K Buck LED Lamp Driver High Voltage Average CC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005588A.pdf
+$ENDCMP
+#
+$CMP HV9967BK7-G
+D Buck LED Lamp Driver Average-Mode Constant Current, DFN8 (3x3mm)
+K Buck LED Lamp Driver Low Voltage Average CC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9967b.pdf
+$ENDCMP
+#
+$CMP HV9967BMG-G
+D Buck LED Lamp Driver Average-Mode Constant Current, MSOP8
+K Buck LED Lamp Driver Low Voltage Average CC
+F http://ww1.microchip.com/downloads/en/devicedoc/hv9967b.pdf
+$ENDCMP
+#
+$CMP HV9972LG-G
+D Isolated LED Lamp Driver Constant Current, SO8
+K Isolated LED Lamp Driver High Voltage CC
+F https://www.mouser.com/ds/2/268/HV9972-272498-1181261.pdf
+$ENDCMP
+#
+$CMP IS31FL3216
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216.pdf
+$ENDCMP
+#
+$CMP IS31FL3216A
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
+$ENDCMP
+#
+$CMP IS31LT3360
+D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
+K Switching LED driver
+F http://www.issi.com/WW/pdf/31LT3360.pdf
+$ENDCMP
+#
+$CMP LT3465
+D 1.2MHz White LED Drivers with Built-in Schottky, ThinSOT-23-6
+K Switching LED driver
+F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
+$CMP LT3465A
+D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
+K Switching LED driver
+F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
+$CMP LT3755xMSE
+D 40 Vin, 75 Vout, DC/DC LED Controllers, Hysteresis Open led Status pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP LT3755xMSE-1
+D 40 Vin, 75 Vout, DC/DC LED Controllers, Frequency Synchronisation, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP LT3755xMSE-2
+D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open Led Status Pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP LT3755xUD
+D 40 Vin, 75 Vout, DC/DC LED Controller, Hysteresis Open led Status pins, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP LT3755xUD-1
+D 40 Vin, 75 Vout, DC/DC LED Controllers, Frequency Synchronisation, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP LT3755xUD-2
+D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+$ENDCMP
+#
+$CMP PCA9685BS
+D 16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN
+K PWM LED driver I2C QFN
+F http://www.nxp.com/documents/data_sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP PCA9685PW
+D 16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP
+K PWM LED driver I2C TSSOP
+F http://www.nxp.com/documents/data_sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP ST1CC40DR
+D 3A monolithic step-down current source with synchronous rectification, 3-18V Input Voltage, 850kHz, SO-8
+K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
+$ENDCMP
+#
+$CMP ST1CC40PUR
+D 3A monolithic step-down current source with synchronous rectification, 3-18V Input Voltage, 850kHz, DFN-8
+K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
+$ENDCMP
+#
+$CMP TLC5940NT
+D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, DIP package
+K PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5940PWP
+D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
+K PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5947DAP
+D 24-Channel, 12-Bit PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5947RHB
+D 24-Channel, 12-Bit PWM LED Driver, QFN
+K PWM LED driver QFN
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5973
+D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
+K LED current driver 12bit PWM
+F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
+$ENDCMP
+#
+$CMP WS2811
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
+$ENDCMP
+#
+#End Doc Library
