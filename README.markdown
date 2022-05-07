@@ -7,6 +7,24 @@ Used libraries:
 * [kicad-footprints](https://github.com/KiCad/kicad-footprints)
 * [kicad-symbols](https://github.com/KiCad/kicad-symbols)
 
+## License violations (a.k.a Naughty List)
+
+All the designs in this repository are licensed very liberally under CC BY 4.0,
+so you can modify and/or sell them commercially if you want. There's just one
+requirement: **attribution**
+
+Basically it just means this: don't remove the original creator's name from the
+design. [Here's the full description about it in CC BY 4.0](https://creativecommons.org/licenses/by/4.0/#deed-conditions)
+
+Known license violations:
+
+- Ferrante Crafts: While it wasn't fully intentional and they've
+  apologised, they took my GB-CART32K-A design, altered the silkscreen to
+  include their name while removing all mention of mine, and then sold these
+  carts to people for profit
+
+[Don't be this meme!](https://knowyourmeme.com/memes/i-made-this)
+
 ## GB-BENCH-G1
 
 Test bench board for 1st generation Game Boy CPUs (DMG-CPU, SGB-CPU).
