@@ -1,2 +1,0 @@
-# Crystals.pretty
-Crystal footprints

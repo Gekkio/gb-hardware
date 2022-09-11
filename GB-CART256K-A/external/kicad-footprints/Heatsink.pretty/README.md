@@ -1,3 +1,0 @@
-# Heatsinks.pretty
-
-Heatsink footprints
